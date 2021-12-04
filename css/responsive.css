@@ -1,0 +1,175 @@
+@media screen and (max-width: 992px) {
+     .slider_section {
+         min-height: auto;
+    }
+     .slider_section .detail-box {
+         padding: 90px 0 75px 0;
+    }
+     .info_main_row {
+         flex-direction: column-reverse;
+    }
+     .info-col {
+         margin-bottom: 45px;
+    }
+}
+@media screen and (max-width: 767px) {
+     .slider_section .detail-box {
+         padding-left: 10px;
+         padding-right: 10px;
+    }
+     .slider_section .detail-box h1 {
+         font-size: 2.5rem;
+    }
+     .slider_section .slider_bg_box img {
+         object-position: 20% center;
+    }
+     .contact_section .form_container {
+         margin-bottom: 45px;
+    }
+     .client_section .box {
+         background: linear-gradient(to bottom, #3c2946 115px, #ffffff 115px);
+    }
+     .client_section .box .client_info {
+         flex-direction: column;
+    }
+     .client_section .box .client_info .client_name h6 {
+         margin-bottom: 5px;
+    }
+     .client_section .box {
+         flex-direction: column;
+         text-align: center;
+         margin: 45px 5px;
+         padding: 45px 20px;
+    }
+     .client_section .box .detail-box {
+         align-items: center;
+    }
+     .client_section .box .img-box {
+         margin-right: 0;
+         margin-bottom: 25px;
+    }
+     .client_section .carousel_btn-box {
+         display: flex;
+         justify-content: center;
+         margin-top: 30px;
+    }
+     .client_section .carousel-control-prev, .client_section .carousel-control-next {
+         position: unset;
+         margin: 0 2.5px;
+    }
+     .info-col {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         text-align: center;
+    }
+     .heading_container h2{
+        font-size: 22px;
+         line-height: 30px;
+    }
+     .layout_padding{
+        padding: 40px 0;
+    }
+     .cat_section .box{
+        margin: 0 0 15px 0;
+    }
+     .serv_section .box{
+        margin: 30px 0 0 0;
+    }
+     .cat_section .box .detail-box h2{
+        font-size:22px;
+    }
+     .serv_section .box .detail-box h5{
+        font-size:14px;
+    }
+     .contact-info h3{
+        font-size:14px;
+    }
+     body{
+        font-size:14px;
+    }
+     .info_contact{
+        margin:15px 0 0 0;
+    }
+     .info_detail{
+        margin:30px 0 0 0;
+         display:inline-block;
+    }
+     .info_section .info_social{
+        justify-content: left;
+    }
+     .info_section h4{
+        font-size: 18px;
+         margin-bottom: 15px;
+    }
+     .footer_section p{
+        font-size: 13px;
+         line-height:24px;
+    }
+     .about-text h1{
+        font-size: 22px;
+		line-height: 30px;
+    }
+     .about-text{
+        padding: 80px 0 40px 0;		
+    }
+     .contact-pd{
+        padding: 40px 0;
+    }
+     .contact-pd p{
+        font-size: 12px;
+        line-height:24px;
+        margin:0 15px 0 0;
+    }
+     .contact-pd h2{
+        font-size: 22px;
+        line-height: 30px;
+    }
+     .heading_container p{
+        font-size: 12px;
+        line-height:24px;
+    }
+     .detail-box-btn a{
+        font-size: 14px;
+    }
+     .detail-box-btn{
+        margin: 20px 0 0 0;
+    }
+	.sub-contact-info p {font-size:15px;}
+}
+@media screen and (max-width: 576px) {
+     .info_section .info_insta .insta_box {
+         flex-direction: column;
+    }
+     .info_section .info_insta .insta_box .img-box {
+         margin-right: 0;
+         margin-bottom: 10px;
+    }
+     .contact-pd iframe{
+        width:100%;
+         height:250px;
+    }
+	.contact-form .form-group select{
+		height: 38px;
+	}
+}
+@media screen and (max-width: 480px) {
+     .about_section .img-box::before {
+         width: 150px;
+         height: 150px;
+    }
+     .slider_section .slider_bg_box img {
+         object-position: 40% center;
+    }
+}
+@media screen and (max-width: 376px) {
+     .slider_section .detail-box h1 {
+         font-size: 2rem;
+    }
+}
+@media screen and (min-width: 1200px) {
+     .container {
+         max-width: 1170px;
+    }
+}
+ 
